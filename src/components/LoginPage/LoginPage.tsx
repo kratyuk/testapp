@@ -1,7 +1,7 @@
 import React from 'react';
 import './LoginPage.less'
 import { Form, Button, Input } from 'antd';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const LoginPage: React.FC = () => {
 
@@ -54,7 +54,7 @@ const LoginPage: React.FC = () => {
           <Button className="login-form__button" type="primary" htmlType="submit"> Войти </Button>
         </Form.Item>
       </Form>
-      {/* <NavLink to="/reset" /> */}
+      <NavLink className="login-page__navlink" to="/reset"> Забыли пароль? </NavLink>
     </div>
   );
 }
