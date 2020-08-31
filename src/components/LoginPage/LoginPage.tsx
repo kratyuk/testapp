@@ -47,7 +47,7 @@ const LoginPage: React.FC = () => {
             className="login-form__input"
             prefix={<LockOutlined className="site-form-item-icon" />}
             type="password"
-            placeholder="Password"
+            placeholder="Пароль"
           />
         </Form.Item>
         <Form.Item>
